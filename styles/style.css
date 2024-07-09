@@ -1,0 +1,214 @@
+/*----font style----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Azeret Mono";
+}
+
+/*------banner-part-style------*/
+
+.banner-section {
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    background-image: url('../assets/Hero-bg.png');
+}
+
+.banner-image-text {
+    width: 952px;
+    height: 582px;
+    margin: 26px auto 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.banner-image {
+    width: 177px;
+    height: 228px;
+    margin-top: 0px;
+}
+
+.banner-image-text h2 {
+    width: 998px;
+    height: 136px;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
+
+.banner-image-text p {
+    width: 852px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
+
+.btn {
+    width: 208px;
+    height: 66px;
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background-color: rgb(13, 19, 33);
+    cursor: pointer;
+}
+
+/*-----Why web development is needed style part-----*/
+
+.web-deb-requirement-section {
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    margin-top: 74px;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+.web-deb-requirement {
+    width: 946px;
+    height: 1235px;
+    margin: 80px 97px;
+}
+
+.web-dev-question {
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.web-dev-question h1 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37px;
+    color: rgb(13, 19, 33);
+}
+
+.web-dev-question p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 8px;
+    color: rgb(13, 19, 33);
+}
+
+.requirement1, .requirement2, .requirement3 {
+    width: 946px;
+    height: 336px;
+    margin-top: 48px;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.requirement2{
+    margin-top: 32px;
+}
+
+.requirement3{
+    margin-top: 32px;
+}
+
+.requirement1-subdiv, .requirement2-subdiv, .requirement3-subdiv {
+    width: 850px;
+    height: 224px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.requirement1-text, .requirement3-text {
+    width: 477px;
+    height: 219px;
+}
+
+.requirement1-subdiv img, .requirement3-subdiv img {
+    width: 259px;
+    height: 217px;
+}
+
+.requirement1-text h6, .requirement3-text h6 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 16px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.requirement1-text p, .requirement3-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.requirement1-text button, .requirement3-text button{
+    width: 171px;
+    height: 47px;
+    margin-top: 14px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    border: 1px solid rgb(13, 19, 33);
+    cursor: pointer;
+}
+.requirement2-subdiv img {
+    width: 259px;
+    height: 217px;
+}
+
+.requirement2-text {
+    width: 477px;
+    height: 219px;
+    margin-right: 95px;
+    margin-left: 10px;
+}
+
+.requirement2-text h6 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 16px;
+    color: rgba(13, 19, 33, 0.7);
+}
+.requirement2-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.requirement2-text button {
+    width: 171px;
+    height: 47px;
+    margin-top: 14px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    border: 1px solid rgb(13, 19, 33);
+    cursor: pointer;
+}
+
+/*-----My Inspiration part style-----*/
+
