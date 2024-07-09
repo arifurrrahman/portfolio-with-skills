@@ -212,3 +212,43 @@ body {
 
 /*-----My Inspiration part style-----*/
 
+.inspiration-part{
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 86px;
+}
+.inspiration-text{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    text-align: center;
+}
+.inspiration-text h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 14px;
+    color: rgb(13, 19, 33);
+}
+.inspiration-text p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: rgb(13, 19, 33);
+}
+.inspiration-video{
+    width: 1140px;
+    height: 614px;
+    margin-top: 48px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.video-content{
+    width: 1076px;
+    height: 550px;
+    margin: 32px 0px;
+    border-radius:  16px;
+}
