@@ -61,7 +61,7 @@ body {
 .btn {
     width: 208px;
     height: 66px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600px;
     padding: 16px;
     color: rgb(255, 255, 255);
@@ -468,6 +468,7 @@ input[type="submit"]{
     margin: 0 auto;
     margin-top: 80px;
     background-color: rgba(13, 19, 33, 0.03);
+    border: 1px solid rgba(13, 19, 33, 0.03);
 }
 .name-social-media-links{
     width: 1044px;
