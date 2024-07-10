@@ -183,7 +183,8 @@ body {
     margin-top: 14px;
     font-size: 20px;
     font-weight: 600;
-    opacity: 0.8;
+    opacity: 0.7;
+    background-color: white;
     color: rgb(13, 19, 33);
     border: 1px solid rgb(13, 19, 33);
     cursor: pointer;
@@ -225,7 +226,8 @@ body {
     margin-top: 14px;
     font-size: 20px;
     font-weight: 600;
-    opacity: 0.8;
+    opacity: 0.7;
+    background-color: white;
     color: rgb(13, 19, 33);
     border: 1px solid rgb(13, 19, 33);
     cursor: pointer;
