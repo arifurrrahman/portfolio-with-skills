@@ -61,13 +61,14 @@ body {
 .btn {
     width: 208px;
     height: 66px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600px;
-    padding: 10px;
+    padding: 16px;
     color: rgb(255, 255, 255);
     border-radius: 8px;
     background-color: rgb(13, 19, 33);
     cursor: pointer;
+    text-decoration: none;
 }
 
 /*-----Why web development is needed style part-----*/
@@ -168,6 +169,7 @@ body {
     margin-top: 14px;
     font-size: 20px;
     font-weight: 600;
+    opacity: 0.8;
     color: rgb(13, 19, 33);
     border: 1px solid rgb(13, 19, 33);
     cursor: pointer;
@@ -205,6 +207,7 @@ body {
     margin-top: 14px;
     font-size: 20px;
     font-weight: 600;
+    opacity: 0.8;
     color: rgb(13, 19, 33);
     border: 1px solid rgb(13, 19, 33);
     cursor: pointer;
@@ -314,11 +317,11 @@ body {
     color: rgb(13, 19, 33);
     margin-top: 8px;
 }
-.skill-html-subdiv h3{
+.skill-html-subdiv a{
     font-size: 16px;
     font-weight: 700;
+    line-height: 45px;
     text-decoration: underline;
-    margin-top: 18px;
 }
 .skill-css{
     width: 364px;
@@ -350,11 +353,11 @@ body {
     color: rgb(13, 19, 33);
     margin-top: 8px;
 }
-.skill-css-subdiv h3{
+.skill-css-subdiv a{
     font-size: 16px;
     font-weight: 700;
+    line-height: 45px;
     text-decoration: underline;
-    margin-top: 18px;
 }
 .skill-js{
     width: 364px;
@@ -387,11 +390,11 @@ background-color: rgba(255, 223, 0, 0.05);
     color: rgb(13, 19, 33);
     margin-top: 8px;
 }
-.skill-js-subdiv h3{
+.skill-js-subdiv a{
     font-size: 16px;
     font-weight: 700;
+    line-height: 45px;
     text-decoration: underline;
-    margin-top: 18px;
 }
 .support-or-feedback-part{
     width: 1140px;
@@ -465,7 +468,6 @@ input[type="submit"]{
     margin: 0 auto;
     margin-top: 80px;
     background-color: rgba(13, 19, 33, 0.03);
-    border: 1px solid rgba(13, 19, 33, 0.03);
 }
 .name-social-media-links{
     width: 1044px;
