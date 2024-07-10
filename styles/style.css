@@ -9,7 +9,8 @@
 }
 
 body {
-    font-family: "Azeret Mono";
+    font-family: "Azeret Mono", monospace;
+    f
 }
 
 /*------banner-part-style------*/
@@ -55,6 +56,7 @@ body {
     font-weight: 400;
     line-height: 26px;
     text-align: center;
+    opacity: 0.8;
     color: rgb(13, 19, 33);
 }
 
@@ -106,10 +108,13 @@ body {
     font-weight: 400;
     line-height: 26px;
     margin-top: 8px;
+    opacity: 0.7;
     color: rgb(13, 19, 33);
 }
 
-.requirement1, .requirement2, .requirement3 {
+.requirement1,
+.requirement2,
+.requirement3 {
     width: 946px;
     height: 336px;
     margin-top: 48px;
@@ -120,15 +125,18 @@ body {
     justify-content: center;
     align-items: center;
 }
-.requirement2{
+
+.requirement2 {
     margin-top: 32px;
 }
 
-.requirement3{
+.requirement3 {
     margin-top: 32px;
 }
 
-.requirement1-subdiv, .requirement2-subdiv, .requirement3-subdiv {
+.requirement1-subdiv,
+.requirement2-subdiv,
+.requirement3-subdiv {
     width: 850px;
     height: 224px;
     display: flex;
@@ -136,17 +144,20 @@ body {
 
 }
 
-.requirement1-text, .requirement3-text {
+.requirement1-text,
+.requirement3-text {
     width: 477px;
     height: 219px;
 }
 
-.requirement1-subdiv img, .requirement3-subdiv img {
+.requirement1-subdiv img,
+.requirement3-subdiv img {
     width: 259px;
     height: 217px;
 }
 
-.requirement1-text h6, .requirement3-text h6 {
+.requirement1-text h6,
+.requirement3-text h6 {
     font-size: 22px;
     font-weight: 700;
     line-height: 36px;
@@ -155,15 +166,18 @@ body {
     color: rgba(13, 19, 33, 0.7);
 }
 
-.requirement1-text p, .requirement3-text p {
+.requirement1-text p,
+.requirement3-text p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    opacity: 0.7;
     text-align: left;
     margin-bottom: 16px;
 }
 
-.requirement1-text button, .requirement3-text button{
+.requirement1-text button,
+.requirement3-text button {
     width: 171px;
     height: 47px;
     margin-top: 14px;
@@ -174,6 +188,7 @@ body {
     border: 1px solid rgb(13, 19, 33);
     cursor: pointer;
 }
+
 .requirement2-subdiv img {
     width: 259px;
     height: 217px;
@@ -194,13 +209,16 @@ body {
     margin-bottom: 16px;
     color: rgba(13, 19, 33, 0.7);
 }
+
 .requirement2-text p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    opacity: 0.7;
     text-align: left;
     margin-bottom: 16px;
 }
+
 .requirement2-text button {
     width: 171px;
     height: 47px;
@@ -215,31 +233,36 @@ body {
 
 /*-----My Inspiration part style-----*/
 
-.inspiration-part{
+.inspiration-part {
     width: 1140px;
     height: 775px;
     margin: 0 auto;
     margin-top: 86px;
 }
-.inspiration-text{
+
+.inspiration-text {
     width: 852px;
     height: 113px;
     margin: 0 auto;
     text-align: center;
 }
-.inspiration-text h2{
+
+.inspiration-text h2 {
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 14px;
     color: rgb(13, 19, 33);
 }
-.inspiration-text p{
+
+.inspiration-text p {
     font-size: 16px;
     font-weight: 400;
     margin-top: 20px;
+    opacity: 0.7;
     color: rgb(13, 19, 33);
 }
-.inspiration-video{
+
+.inspiration-video {
     width: 1140px;
     height: 614px;
     margin-top: 48px;
@@ -249,154 +272,188 @@ body {
     justify-content: center;
 }
 
-.video-content{
+.video-content {
     width: 1076px;
     height: 550px;
     margin: 32px 0px;
-    border-radius:  16px;
+    border-radius: 16px;
 }
-.skills{
+
+/*-----My current skills style part-----*/
+
+.skills {
     width: 1140px;
     height: 460px;
     margin: 0 auto;
     margin-top: 150px;
 }
-.current-skills{
+
+.current-skills {
     text-align: center;
     width: 946px;
     height: 113px;
     margin: 0 auto;
 }
-.current-skills h2{
+
+.current-skills h2 {
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
     margin-bottom: 20px;
     color: rgb(13, 19, 33);
 }
-.current-skills p{
+
+.current-skills p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    opacity: 0.7;
     color: rgb(13, 19, 33);
 }
-.skill{
+
+.skill {
     width: 1140px;
     height: 299px;
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
 }
-.skill-html{
+
+.skill-html {
     width: 364px;
     height: 299px;
     border-radius: 16px;
     background-color: rgba(255, 76, 30, 0.05);
 }
-.skill-html-subdiv{
+
+.skill-html-subdiv {
     width: 284px;
     height: 219px;
     margin: 0 auto;
     margin-top: 40px;
 }
-.skill-html-subdiv img{
+
+.skill-html-subdiv img {
     width: 56px;
     height: 56px;
 }
-.skill-html-subdiv h1{
+
+.skill-html-subdiv h1 {
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
     color: rgb(13, 19, 33);
     margin-top: 24px;
 }
-.skill-html-subdiv p{
+
+.skill-html-subdiv p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    opacity: 0.7;
     color: rgb(13, 19, 33);
     margin-top: 8px;
 }
-.skill-html-subdiv a{
+
+.skill-html-subdiv a {
     font-size: 16px;
     font-weight: 700;
     line-height: 45px;
+    color: rgb(13, 19, 33);
     text-decoration: underline;
 }
-.skill-css{
+
+.skill-css {
     width: 364px;
     height: 299px;
     border-radius: 16px;
     background-color: rgba(0, 76, 232, 0.05);
 }
-.skill-css-subdiv{
+
+.skill-css-subdiv {
     width: 284px;
     height: 219px;
     margin: 0 auto;
     margin-top: 40px;
 }
-.skill-css-subdiv img{
+
+.skill-css-subdiv img {
     width: 56px;
     height: 56px;
 }
-.skill-css-subdiv h1{
+
+.skill-css-subdiv h1 {
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
     color: rgb(13, 19, 33);
     margin-top: 24px;
 }
-.skill-css-subdiv p{
+
+.skill-css-subdiv p {
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 18px;
+    opacity: 0.7;
     color: rgb(13, 19, 33);
     margin-top: 8px;
 }
-.skill-css-subdiv a{
+
+.skill-css-subdiv a {
     font-size: 16px;
     font-weight: 700;
     line-height: 45px;
+    color: rgb(13, 19, 33);
     text-decoration: underline;
 }
-.skill-js{
+
+.skill-js {
     width: 364px;
     height: 299px;
     border-radius: 16px;
-background-color: rgba(255, 223, 0, 0.05);
+    background-color: rgba(255, 223, 0, 0.05);
 }
 
-.skill-js-subdiv{
+.skill-js-subdiv {
     width: 284px;
     height: 219px;
     margin: 0 auto;
     margin-top: 40px;
 }
-.skill-js-subdiv img{
+
+.skill-js-subdiv img {
     width: 56px;
     height: 56px;
 }
-.skill-js-subdiv h1{
+
+.skill-js-subdiv h1 {
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
     color: rgb(13, 19, 33);
     margin-top: 24px;
 }
-.skill-js-subdiv p{
+
+.skill-js-subdiv p {
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 18px;
+    opacity: 0.7;
     color: rgb(13, 19, 33);
     margin-top: 8px;
 }
-.skill-js-subdiv a{
+
+.skill-js-subdiv a {
     font-size: 16px;
     font-weight: 700;
     line-height: 45px;
+    color: rgb(13, 19, 33);
     text-decoration: underline;
 }
-.support-or-feedback-part{
+
+/*-----Support section style part-----*/
+
+.support-or-feedback-part {
     width: 1140px;
     height: 313px;
     margin: 0 auto;
@@ -406,10 +463,10 @@ background-color: rgba(255, 223, 0, 0.05);
     background-position: center;
     background-color: rgba(0, 0, 0, 0.74);
     background-blend-mode: overlay;
-    border: 1px solid black ;
+    border: 1px solid black;
 }
 
-.support-or-feedback{
+.support-or-feedback {
     width: 1044px;
     height: 185px;
     margin: 64px auto;
@@ -419,7 +476,8 @@ background-color: rgba(255, 223, 0, 0.05);
     align-items: center;
     gap: 20%;
 }
-.support-or-feedback-text{
+
+.support-or-feedback-text {
     width: 730px;
     height: 104px;
     display: flex;
@@ -429,20 +487,24 @@ background-color: rgba(255, 223, 0, 0.05);
     align-items: center;
     gap: 20%;
 }
-.support-or-feedback h1{
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 36px;
-        color: rgb(255, 255, 255);
+
+.support-or-feedback h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgb(255, 255, 255);
 }
-.support-or-feedback p{
+
+.support-or-feedback-text p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    opacity: 0.7;
     color: rgb(255, 255, 255);
     opacity: 0.7;
 }
-input[type="text"]{
+
+input[type="text"] {
     width: 584px;
     height: 57px;
     border-radius: 8px;
@@ -453,7 +515,8 @@ input[type="text"]{
     font-weight: 400px;
     color: rgb(13, 19, 33);
 }
-input[type="submit"]{
+
+input[type="submit"] {
     width: 120px;
     height: 57px;
     border-radius: 8px;
@@ -462,7 +525,10 @@ input[type="submit"]{
     color: rgb(13, 19, 33);
     cursor: pointer;
 }
-#footer-section{
+
+/*-----Footer section style part-----*/
+
+#footer-section {
     width: 1440px;
     height: 100px;
     margin: 0 auto;
@@ -470,7 +536,8 @@ input[type="submit"]{
     background-color: rgba(13, 19, 33, 0.03);
     border: 1px solid rgba(13, 19, 33, 0.03);
 }
-.name-social-media-links{
+
+.name-social-media-links {
     width: 1140px;
     height: 36px;
     margin: 0 auto;
@@ -479,29 +546,34 @@ input[type="submit"]{
     display: flex;
     justify-content: space-between;
 }
-.name{
+
+.name {
     width: 456px;
     height: 23px;
     font-size: 18px;
     font-weight: 600;
     color: rgba(13, 19, 33);
 }
-.social-media-links{
+
+.social-media-links {
     width: 158px;
     height: 50px;
     display: flex;
     justify-content: space-evenly;
 }
-.image1{
+
+.image1 {
     width: 28.25px;
     height: 28.25px;
 }
-.image2{
+
+.image2 {
     width: 36.25px;
     height: 28.25px;
     margin-left: 3px;
 }
-.image3{
+
+.image3 {
     width: 36.25px;
     height: 28.25px;
     margin-left: 3px;
