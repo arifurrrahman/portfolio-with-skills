@@ -252,3 +252,144 @@ body {
     margin: 32px 0px;
     border-radius:  16px;
 }
+.skills{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.current-skills{
+    text-align: center;
+    width: 946px;
+    height: 113px;
+    margin: 0 auto;
+}
+.current-skills h2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 20px;
+    color: rgb(13, 19, 33);
+}
+.current-skills p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+}
+.skill{
+    width: 1140px;
+    height: 299px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.skill-html{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.skill-html-subdiv{
+    width: 284px;
+    height: 219px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.skill-html-subdiv img{
+    width: 56px;
+    height: 56px;
+}
+.skill-html-subdiv h1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+}
+.skill-html-subdiv p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    margin-top: 8px;
+}
+.skill-html-subdiv h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 18px;
+}
+.skill-css{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.skill-css-subdiv{
+    width: 284px;
+    height: 219px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.skill-css-subdiv img{
+    width: 56px;
+    height: 56px;
+}
+.skill-css-subdiv h1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+}
+.skill-css-subdiv p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    margin-top: 8px;
+}
+.skill-css-subdiv h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 18px;
+}
+.skill-js{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+background-color: rgba(255, 223, 0, 0.05);
+}
+
+.skill-js-subdiv{
+    width: 284px;
+    height: 219px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.skill-js-subdiv img{
+    width: 56px;
+    height: 56px;
+}
+.skill-js-subdiv h1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    color: rgb(13, 19, 33);
+    margin-top: 24px;
+}
+.skill-js-subdiv p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    margin-top: 8px;
+}
+.skill-js-subdiv h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 18px;
+}
